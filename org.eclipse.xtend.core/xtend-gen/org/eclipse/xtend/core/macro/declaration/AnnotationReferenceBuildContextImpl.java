@@ -816,7 +816,7 @@ public class AnnotationReferenceBuildContextImpl implements AnnotationReferenceB
     }
     String _replace = null;
     if (_identifier!=null) {
-        _replace=_identifier.replace("$", ".");
+      _replace=_identifier.replace("$", ".");
     }
     final String result = _replace;
     if (result != null) {
